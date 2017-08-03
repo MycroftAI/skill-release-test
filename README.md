@@ -2,4 +2,5 @@
 
 ## Usage:
 * `release test`
-* 'Test3'
+* `test3`
+* `test4`
