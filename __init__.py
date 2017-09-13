@@ -25,15 +25,14 @@ __author__ = 'eward'
 LOGGER = getLogger(__name__)
 
 
-class ReleaseTestSkill( MycroftSkill ):
+class ReleaseTestSkill(MycroftSkill):
     def __init__(self):
-        super( ReleaseTestSkill, self ).__init__( name="ReleaseTestSkill" )
+        super(ReleaseTestSkill, self).__init__(name="ReleaseTestSkill")
 
     def initialize(self):
         Release_intent = IntentBuilder("ReleaseIntent"). \
             require("ReleaseKeyword").build()
         self.register_intent(Release_intent, self.handle_Release_intent)
-
 
     def handle_Release_intent(self, message):
         self.speak_dialog("Release")
