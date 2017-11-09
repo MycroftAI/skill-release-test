@@ -2,4 +2,4 @@
 
 ## Usage:
 * `release test`
-* `test 1 - 10/18/2017`
+* `test 1 - 11/9/2017`
