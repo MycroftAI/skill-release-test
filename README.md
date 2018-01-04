@@ -1,6 +1,15 @@
-# Release Test Skill
+## Release Test
+Tool used by Quality Assurance team when validating a new mycroft-core release
 
-## Usage:
-* `release test`
-* `test 1 - 11/9/2017`
-* `test 2 - 12/15/2017`
+## Description 
+When a new release is being tested, this skill is installed to verify the
+installation mechanism functions properly.  Additionally, the following line
+is edited to verify that the skill update process occurs as intended.
+
+Test line:  1/4/2018 - 3:49pm
+
+## Examples 
+* "Run the release test" (should respond with 'Test passed')
+
+## Credits 
+Mycroft AI
