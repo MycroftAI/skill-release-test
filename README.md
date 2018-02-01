@@ -6,9 +6,7 @@ When a new release is being tested, this skill is installed to verify the
 installation mechanism functions properly.  Additionally, the following line
 is edited to verify that the skill update process occurs as intended.
 
-Test line:  1/4/2018 - 3:49pm
-
-Test line:  1/18/2018 - 23:31 (CET)
+Test line:  2/1/2018 - 2:58pm
 
 ## Examples 
 * "Run the release test" (should respond with 'Test passed')
