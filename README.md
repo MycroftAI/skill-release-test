@@ -10,6 +10,7 @@ Test line:  2018/03/01 - 05:14 CST
 
 ## Examples 
 * "Run the release test" (should respond with 'Test passed')
+* "release test"
 
 ## Credits 
 Mycroft AI
